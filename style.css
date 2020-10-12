@@ -21,3 +21,131 @@ body {
 */
 
 /* ----- zde zacni psat vlastni css ----- */
+
+body{
+    background-color: #959595;
+    font-weight: 400px;
+    font-size: 14px;
+    font-family: 'Rubik', sans-serif;
+       }
+
+.zbozi{
+    display: flex;
+    height: 440px;
+    width: 670px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    font-weight: 400px;
+    font-size: 14px;
+   }
+
+.vizual{
+    background-image: linear-gradient(#06d7c1, #50cc49);
+    border-radius: 10px 0px 0px 10px;
+    padding-top: 30px;
+    padding-left: 30px;
+    width: 50%;
+    color: white;
+}
+
+.detaily{
+    width: 50%;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-left: 30px;    
+}
+
+.nazev{
+    font-size: 20px;
+    font-weight: 500 bold;
+    text-transform: uppercase;  
+}
+.produkt{
+    color: #959595;  
+    margin-bottom: 30px;
+}
+
+.parametr{
+    text-transform: uppercase;
+    font-size: 14px;  
+}
+
+.popis{
+   padding-bottom: 30px;
+   border-bottom: 1px solid #06d7c1;
+   margin-right: 30px;
+}
+
+
+
+.velikosti{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 50px;
+    box-sizing: 1px;
+    list-style-type : none;
+    margin-left: -50px;
+    padding-right: 60px;
+}
+
+.vybrana{
+    border: 1px solid #f15f42 ;
+    border-radius: 50px;
+    color: #f15f42;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+.tlacitko{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    background-color: #f15f42;
+    padding: 10px 30px ;   
+}
+
+.akce{
+    margin-top: 50px;
+}
+
+.popis{
+    margin-bottom: 30px;
+}
+
+.logo{
+    margin-bottom: 30px;
+}
+
+.slogan{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.bota{
+    position: absolute;
+    margin-left: -115px;
+}
+
+.cenovka{
+    padding-right: 30px;
+    padding-top: 220px; 
+    text-align: right;
+}
+
+.cena{
+    font-size: 28px;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+
+.zaruka{
+    font-size: 12px;
+    font-weight: 400;
+}
